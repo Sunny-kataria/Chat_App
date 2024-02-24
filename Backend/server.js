@@ -99,12 +99,12 @@
 
 
 const express = require("express");
-const connectDB = require("./config/db");
+const connectDB =require("./Config/DB")
 const dotenv = require("dotenv");
 const userRoutes = require("./routes/userRoutes");
 const chatRoutes = require("./routes/chatRoutes");
 const messageRoutes = require("./routes/messageRoutes");
-const { notFound, errorHandler } = require("./middleware/errorMiddleware");
+const {errorHandler,notFound}=require("./Middleware/errorMiddleware")
 const path = require("path");
 
 dotenv.config();
