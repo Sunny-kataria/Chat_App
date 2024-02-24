@@ -1,6 +1,6 @@
 const asyncHandler=require("express-async-handler");
-const Chat = require("../models/chatModel")
-const User = require("../models/UserModel"); // Import UserModel.js only once
+const Chat = require("../Models/chatModel")
+const User = require("../Models/UserModel"); // Import UserModel.js only once
 
 
 const accessChat=asyncHandler(async(req,res)=>{

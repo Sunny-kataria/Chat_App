@@ -1,5 +1,5 @@
 const asyncHandler=require("express-async-handler");
-const User=require("../models/UserModel")
+const User=require("../Models/UserModel")
 const generateToken=require("../Config/generateToken")
 
 
